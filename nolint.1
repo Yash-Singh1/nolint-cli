@@ -1,0 +1,35 @@
+.TH nolint  "04 June 2021" "" ""
+.RS
+.SS Usage
+$ \fBnolint\fP <file>
+.PP
+.SS Options
+.RS
+.TP
+.B
+\fB<file>\fP
+The file to be linted
+.RE
+.PP
+.SS Examples
+$ \fBnolint hello.no\fP
+
+$ \fBnolint index.no\fP
+.RS
+✘ index.no isn't empty
+.RE
+
+$ \fBnolint\fP
+.RS
+✘ At least one argument must be present
+.RE
+
+$ \fBnolint notthere.no\fP
+.RS
+✘ notthere.no doesn't exist
+.RE
+
+$ \fBnolint something\fP
+.RS
+✘ nocode files must have the .no file extension
+.RE

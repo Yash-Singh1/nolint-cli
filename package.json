@@ -1,0 +1,35 @@
+{
+  "name": "nolint-cli",
+  "version": "1.0.0",
+  "description": "CLI for nocodelint",
+  "main": "cli.js",
+  "bin": {
+    "nolint": "./cli.js"
+  },
+  "keywords": [
+    "contributors",
+    "github",
+    "generate",
+    "file",
+    "cli"
+  ],
+  "author": "Yash Singh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "meow": "^9.0.0",
+    "nocodelint": "^1.0.1",
+    "update-notifier": "^5.1.0"
+  },
+  "man": [
+    "nolint.1"
+  ],
+  "homepage": "https://github.com/Yash-Singh1/nolint-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Yash-Singh1/nolint-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yash-Singh1/nolint-cli"
+  }
+}
