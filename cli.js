@@ -21,16 +21,16 @@ Examples
   $ nolint hello.no
 
   $ nolint index.no
-    ✘ index.no isn't empty
+    ${chalk.red('✘')} index.no isn't empty
 
   $ nolint
-    ✘ At least one argument must be present
+    ${chalk.red('✘')} At least one argument must be present
 
   $ nolint notthere.no
-    ✘ notthere.no doesn't exist
+    ${chalk.red('✘')} notthere.no doesn't exist
 
   $ nolint something
-    ✘ nocode files must have the .no file extension
+    ${chalk.red('✘')} nocode files must have the .no file extension
 `
 );
 
