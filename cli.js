@@ -45,6 +45,11 @@ if (cli.input.length === 0) {
   }
   if (!fs.existsSync(cli.input[0])) {
     console.log(`${chalk.red('✘')} ${cli.input[0]} doesn't exist`);
+  } else {
+    const result = nocodelint(fs.readFileSync(cli.input[0], 'utf-8'));
+    if (!result) {
+      console.log(`${chalk.red('✘')} ${cli.input[0]} isn't empty`);
+    }
   }
   process.exit(1);
 } else {
