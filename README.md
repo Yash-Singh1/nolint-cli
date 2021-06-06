@@ -2,15 +2,13 @@
 
 CLI for [`nocodelint`](https://github.com/Yash-Singh1/nocodelint).
 
-## CLI
-
-Install:
+## Installation
 
 ```sh
 npm install --global nolint-cli
 ```
 
-Using:
+## Usage
 
 ```sh
 # Read the man page
