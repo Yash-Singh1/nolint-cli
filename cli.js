@@ -56,5 +56,6 @@ if (cli.input.length === 0) {
   const result = nocodelint(fs.readFileSync(cli.input[0], 'utf-8'));
   if (!result) {
     console.log(`${chalk.red('✘')} ${cli.input[0]} isn't empty`);
+    process.exit(1);
   }
 }
