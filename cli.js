@@ -18,7 +18,7 @@ Options
   <file> The file to be linted
 
 Examples
-  $ nolint hello.no  
+  $ nolint hello.no
 
   $ nolint index.no
     ✘ index.no isn't empty
